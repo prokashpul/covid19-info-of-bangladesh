@@ -1,0 +1,17 @@
+body {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.main-body {
+    margin-top: 30px;
+}
+
+
+/* mobile view */
+
+@media screen and (max-width:684px) {
+    .main-body {
+        margin: 0;
+    }
+}
