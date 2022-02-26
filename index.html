@@ -22,40 +22,45 @@
         </header>
         <!-- Main section -->
         <main class="py-5">
-            <h2 class="text-center mb-3 fw-bold fs-1">COVID-19 Information of Bangladesh</h2>
+            <h2 class="text-center mb-3 fw-bold fs-1"> <span class="text-danger">COVID-19</span> Information of Bangladesh
+            </h2>
             <!-- today update -->
             <div class="text-center">
                 <h4>Last 24 hours Update</h4>
-                <div class="row row-cols-2 row-cols-md-4 g-4 mt-3 text-light">
+                <div class="row row-cols-2 row-cols-md-4 g-4 mt-3">
+                    <!-- New cases -->
                     <div class="col">
-                        <div class="card h-100 bg-info">
+                        <div class="card h-100 border-info text-info">
                             <div class="card-body">
                                 <h5 class="card-title">New cases</h5>
-                                <h3 class="my-3">1200+</h3>
+                                <h3 class="my-3" id="new-cases"></h3>
                             </div>
                         </div>
                     </div>
+                    <!-- New deaths -->
                     <div class="col">
-                        <div class="card h-100 bg-danger">
+                        <div class="card h-100 border-danger text-danger">
                             <div class="card-body">
                                 <h5 class="card-title">New deaths</h5>
-                                <h3 class="my-3">1200+</h3>
+                                <h3 class="my-3" id="new-deaths">1200+</h3>
                             </div>
                         </div>
                     </div>
+                    <!-- Active Now -->
                     <div class="col">
-                        <div class="card h-100 bg-success">
+                        <div class="card h-100 border-success text-success">
                             <div class="card-body">
-                                <h5 class="card-title"> Active</h5>
-                                <h3 class="my-3">1200+</h3>
+                                <h5 class="card-title"> Active Now</h5>
+                                <h3 class="my-3" id="active"></h3>
                             </div>
                         </div>
                     </div>
+                    <!-- Tests -->
                     <div class="col">
-                        <div class="card h-100 bg-warning">
+                        <div class="card h-100 border-warning text-warning">
                             <div class="card-body">
-                                <h5 class="card-title"> Tests </h5>
-                                <h3 class="my-3">1200+</h3>
+                                <h5 class="card-title"> Critical </h5>
+                                <h3 class="my-3" id="critical"></h3>
                             </div>
                         </div>
                     </div>
@@ -65,28 +70,28 @@
                 <!-- Total update -->
 
                 <h4 class="mt-5">Total Update</h4>
-                <div class="row row-cols-2 row-cols-md-3 g-4 mt-3 text-light">
+                <div class="row row-cols-2 row-cols-md-3 g-4 mt-3">
                     <div class="col">
-                        <div class="card h-100 bg-info">
+                        <div class="card h-100 border-info text-info">
                             <div class="card-body">
                                 <h5 class="card-title">Total cases</h5>
-                                <h3 class="my-3">1200+</h3>
+                                <h3 class="my-3" id="total-cases"></h3>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-danger">
+                        <div class="card h-100 border-danger text-danger">
                             <div class="card-body">
                                 <h5 class="card-title">Total deaths</h5>
-                                <h3 class="my-3">1200+</h3>
+                                <h3 class="my-3" id="total-death"></h3>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-success">
+                        <div class="card h-100 border-success text-success">
                             <div class="card-body">
                                 <h5 class="card-title">Total Recovered</h5>
-                                <h3 class="my-3">1200+</h3>
+                                <h3 class="my-3" id="recovered"></h3>
                             </div>
                         </div>
                     </div>
@@ -98,8 +103,8 @@
 
     </section>
     <!-- footer section -->
-    <footer class="mt-5 text-center">
-        &copy; ProWeb
+    <footer class="mt-5 py-3 text-center  fs-5">
+        &copy; <span class="text-info">ProWeb 2022</span>
     </footer>
 
     <!--=============== script links ===============-->
